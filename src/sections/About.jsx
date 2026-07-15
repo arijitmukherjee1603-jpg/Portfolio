@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import MyPic from "../assets/mypic.jpg";
 
 // 🔥 CONTAINER (better stagger control)
 const container = {
@@ -73,7 +74,7 @@ const About = () => {
               className="w-60 h-60 rounded-2xl overflow-hidden border border-white/10 backdrop-blur-xl bg-white/5 shadow-xl"
             >
               <img
-                src="src/assets/mypic.jpg"
+                src={MyPic}
                 alt="profile"
                 className="w-full h-full object-cover"
               />

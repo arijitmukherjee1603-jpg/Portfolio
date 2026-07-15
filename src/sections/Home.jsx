@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import ParticlesBackground from "../components/ParticlesBackground";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
+import Robot from "../assets/robot.jpg";
+
 
 export default function Home() {
 
@@ -121,7 +123,7 @@ export default function Home() {
   className="absolute inset-0 z-0"
 >
   <motion.img
-    src="src/assets/robot.jpg" 
+    src={Robot} 
     alt="background"
     className="w-full h-full mt-10 object-cover"
     animate={{
