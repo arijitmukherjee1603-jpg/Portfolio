@@ -214,7 +214,7 @@ export default function Home() {
             </motion.a>
 
             <motion.a
-              href="/ArijitMukherjee_cv.pdf"
+              href="/ArijitMukherjee_cv_main.pdf"
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 0.95 }}
               className="px-6 py-3 text-cyan-400 font-bold duration-300"
