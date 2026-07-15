@@ -1,25 +1,40 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import Postman from "../assets/Postman.png";
+import TestRail from "../assets/TestRail.png";
+import Jira from "../assets/Jira.png";
+import Java from "../assets/Java.png";
+import Python from "../assets/Python.png";
+import Selenium from "../assets/Selenium.png";
+import HTML5 from "../assets/HTML5.png";
+import CSS3 from "../assets/CSS3.png";
+import Tailwind from "../assets/Tailwind CSS.png";
+import JavaScript from "../assets/JavaScript.png";
+import ReactLogo from "../assets/React.png";
+import MySQL from "../assets/MySQL.png";
+import TestNG from "../assets/TestNG.png";
+import RestAssured from "../assets/RestAssured.png";
+import Appium from "../assets/appium-logo-png_seeklogo-272824.png";
+import RobotFramework from "../assets/robotframework.png";
 
 // 🔥 SKILLS DATA
 const skills = [
-  { name: "Postman", img: "src/assets/postman.png" },
-  { name: "TestRail", img: "src/assets/TestRail.png" },
-  { name: "Jira", img: "src/assets/jira.png" },
-  { name: "Java", img: "src/assets/java.png" },
-  { name: "Python", img: "src/assets/python.png" },
-  { name: "Selenium", img: "src/assets/selenium.png" },
-  { name: "HTML", img: "src/assets/HTML5.png" },
-  { name: "CSS", img: "src/assets/CSS3.png" },
-  { name: "Tailwind", img: "src/assets/Tailwind CSS.png" },
-  { name: "JavaScript", img: "src/assets/javascript.png" },
-  { name: "React", img: "src/assets/react.svg" },
-  { name: "My SQL", img: "src/assets/MySQL.png" },
-  { name: "TestNG", img: "src/assets/TestNG.png" },
-  { name: "Rest Assured", img: "src/assets/RestAssured.png" },
-  { name: "Appium", img: "src/assets/appium-logo-png_seeklogo-272824.png" },
-  { name: "Robot Framework", img: "src/assets/robotframework.png" },
-
+  { name: "Postman", img: Postman },
+  { name: "TestRail", img: TestRail },
+  { name: "Jira", img: Jira },
+  { name: "Java", img: Java },
+  { name: "Python", img: Python },
+  { name: "Selenium", img: Selenium },
+  { name: "HTML", img: HTML5 },
+  { name: "CSS", img: CSS3 },
+  { name: "Tailwind", img: Tailwind },
+  { name: "JavaScript", img: JavaScript },
+  { name: "React", img: ReactLogo },
+  { name: "My SQL", img: MySQL },
+  { name: "TestNG", img: TestNG },
+  { name: "Rest Assured", img: RestAssured },
+  { name: "Appium", img: Appium },
+  { name: "Robot Framework", img: RobotFramework },
 ];
 
 // 🔥 ANIMATION
