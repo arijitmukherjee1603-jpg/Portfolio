@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import MyPic from "../assets/mypic.jpg";
+import MyPic from "../assets/portfolio_pic.jpeg";
 
 // 🔥 CONTAINER (better stagger control)
 const container = {
