@@ -13,7 +13,7 @@ export default function Home() {
     {
       icon: FaLinkedinIn,
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/arijit-mukherjee01/"
+      href: "https://www.linkedin.com/in/arijit-mukherjee-247001383/"
     },
     {
       icon: FaGithub,
@@ -214,7 +214,7 @@ export default function Home() {
             </motion.a>
 
             <motion.a
-              href="/ArijitMukherjee_cv_main.pdf"
+              href="/ArijitMukherjee_cv_main1.pdf"
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 0.95 }}
               className="px-6 py-3 text-cyan-400 font-bold duration-300"
