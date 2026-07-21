@@ -3,7 +3,7 @@ import { motion, useInView, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
 
 import healthcareCert from "../assets/Arijit_MukherjeeTestYantra_page-0001.jpg";
-import tradingCert from "../assets/Arijit MukherjeeTestYantra2_page-0001.jpg";
+import tradingCert from "../assets/Arijit_MukherjeeTestyantra2_page-0001.jpg";
 import MachineLearningCert from "../assets/MachineLearning.jpeg";
 import Entertainmentcert from "../assets/TestYantraCrowd_Entertentment_page-0001.jpg";
 import ChatgptCert from "../assets/Chatgptcertificate.jpeg";
