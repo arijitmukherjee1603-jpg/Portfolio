@@ -99,7 +99,7 @@ const experiences = [
   id: 6,
   title: "100 Days of Code: The Complete Python Pro Bootcamp",
   image: PythonCert,
-  company: "Coursera",
+  company: "Udemy",
   period: "2025",
   description:
     "Successfully completed the '100 Days of Code: The Complete Python Pro Bootcamp' by Dr. Angela Yu on Udemy. Developed strong Python programming skills through hands-on projects covering object-oriented programming, file handling, automation, web scraping, APIs, GUI development, databases, and software development best practices.",
