@@ -31,17 +31,26 @@ export default function OverlayMenu({ isOpen, onClose }) {
     <AnimatePresence>
       {isOpen && (
         <motion.div
-          className="fixed inset-0 z-50 flex items-center justify-center backdrop-blur-xl"
+          className="
+    fixed inset-0 z-50 flex items-center justify-center
+    lg:backdrop-blur-sm
+    lg:bg-transparent
+  "
 
           initial={{ clipPath: `circle(0% at ${origin})` }}
           animate={{ clipPath: `circle(150% at ${origin})` }}
           exit={{ clipPath: `circle(0% at ${origin})` }}
           transition={{ duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
 
-          // Gradient + glass effect
           style={{
             background:
-              "linear-gradient(135deg, rgba(0,0,0,0.95), rgba(20,20,20,0.9))"
+              isMobile >= 1024
+                ? "linear-gradient(135deg, rgba(0,0,0,0.95), rgba(20,20,20,0.9))"
+                : "#000",
+            willChange: "clip-path, opacity, transform",
+            WebkitBackfaceVisibility: "hidden",
+            backfaceVisibility: "hidden",
+            transform: "translateZ(0)"
           }}
         >
 

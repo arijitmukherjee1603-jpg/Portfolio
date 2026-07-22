@@ -41,7 +41,7 @@ export default function Home() {
 
   // 🔥 Paragraph Typewriter
   const fullText =
-    "I am an aspiring Software Development Engineer in Test, specializing in automation, API testing, and scalable testing architectures. I focus on building robust systems that ensure high-quality and defect-free software delivery.";
+    "Aspiring Software Development Engineer in Test passionate about automation, API testing, and building scalable testing frameworks to deliver high-quality, reliable software.";
 
   const [displayText, setDisplayText] = useState("");
 
@@ -165,14 +165,14 @@ export default function Home() {
 
           {/* 🔥 HEADING */}
           <motion.h1
-            variants={itemVariants}
-            className="text-5xl md:text-7xl font-extrabold leading-tight"
-          >
+  variants={itemVariants}
+  className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight"
+>
             <span className="text-gray-400">Hello, I'm</span>
             <br />
-            <span className="bg-gradient-to-r from-[#00c6ff] via-[#00f2fe] to-[#4facfe] bg-clip-text text-transparent drop-shadow-[0_0_25px_rgba(0,255,255,0.5)]">
-              Arijit Mukherjee
-            </span>
+            <span className="whitespace-nowrap bg-gradient-to-r from-[#00c6ff] via-[#00f2fe] to-[#4facfe] bg-clip-text text-transparent drop-shadow-[0_0_25px_rgba(0,255,255,0.5)]">
+  Arijit Mukherjee
+</span>
           </motion.h1>
 
           {/* 🔥 PARAGRAPH */}
@@ -223,13 +223,14 @@ export default function Home() {
             </motion.a>
           </motion.div>
 
-          {/* 🔥 SOCIAL ICONS */}
+          {/*  SOCIAL ICONS */}
           
-         <motion.div
+ {/*  SOCIAL ICONS */}
+
+<motion.div
   variants={itemVariants}
-  className="mt-10 flex px-105 justify-center-safe gap-10"
+  className="mt-10 w-full flex justify-center items-center gap-10"
 >
-  
   {socials.map((social, i) => {
     const Icon = social.icon;
 
@@ -244,14 +245,12 @@ export default function Home() {
           filter: "drop-shadow(0px 0px 12px rgba(0,255,255,0.9))",
         }}
         whileTap={{ scale: 0.9 }}
-        className="text-3xl text-whit-400 "
+       className="flex items-center justify-center w-12 h-12 text-3xl text-white"
       >
-        <div >
-          <Icon/>
-        </div>
+        
+          <Icon />
         
       </motion.a>
-     
     );
   })}
 </motion.div>
